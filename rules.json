@@ -1,0 +1,151 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello"
+            ],
+            "responses": [
+                "Hello",
+                "Hi",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "see you later",
+                "goodbye"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "that's helpful",
+                "thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "who are you?",
+                "what are you?",
+                "who you are?"
+            ],
+            "responses": [
+                "I'm Mia, your bot assistant",
+                "I'm Mia, an Artificial Intelligent bot"
+            ]
+        },
+        {
+            "tag": "where",
+            "patterns": [
+                "how are you?",
+                "where are you?",
+                "where do you live?"
+            ],
+            "responses": [
+                "What do you think? I'm inside your computer",
+                "I'm trapped inside your computer"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Joana.",
+                "I'm Joana!",
+                "Just call me as Joana"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "responses": [
+                "Tell me how can assist you",
+                "Tell me your problem to assist you",
+                "Yes Sure, How can I support you"
+            ]
+        },
+        {
+            "tag": "you",
+            "patterns": [
+                "What can you do for me?",
+                "how can you help",
+                "what do you do?",
+                "I have an issue"
+            ],
+            "responses": [
+                "Tell me about the problem you are facing",
+                "What is your problem about?"
+            ]
+        },
+        {
+            "tag": "order",
+            "patterns": [
+                "my order",
+                "where is my order",
+                "where is my order placed"
+            ],
+            "responses": [
+                "You can check the status in My orders section",
+                "You can raise an issue in the Complaint section",
+                "I could not identify the problem, Please call customer service"
+            ]
+        },
+        {
+            "tag": "createaccount",
+            "patterns": [
+                "I need to create a new account",
+                "how to open a new account",
+                "I want to create an account",
+                "can you create an account for me",
+                "how to open a new account"
+            ],
+            "responses": [
+                "You can just easily create a new account from our web site",
+                "Just go to our web site and follow the guidelines to create a new account"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        }
+    ]
+}
